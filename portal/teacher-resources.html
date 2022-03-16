@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="author" content="Dominic Wheeler">
+    <meta name="description" content="A school website">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="keywords" content="school">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&display=swap" rel="stylesheet">
+
+    <title>Maple Tree Primary School</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="header-container">
+        <div class="header-title">
+          <div class="header-left">
+            <div class="header-img">
+              <a href="../index.html"><img src="../images/logo.png" alt="logo" width="50" height="50"></a>
+            </div>
+            <div class="header-txt">
+              <span>Maple Tree Primary School</span>
+            </div>
+          </div>
+          <div class="header-right">
+            <a href="https://facebook.com/"><img src="../images/icon-fb.png" class="icon"></a>
+            <a href="https://twitter.com/"><img src="../images/icon-tw.png" class="icon"></a>
+            <a href="https://instagram.com/"><img src="../images/icon-ig.png" class="icon"></a>
+            <div class="hamburger-icon" onclick="mobileNav()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="topspace"></div>
+    
+    <nav id="overNav" class="overlay">
+      <ul class="overlay-menu">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../admissions.html">Admissions</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+        <li><a href="../login.html">Login</a></li>
+      </ul>
+    </nav>
+
+    <nav class="navbar sticky">
+      <ul class="topnav">
+        <li><a href="../index.html">Home</a></li>
+        <div class="dropdown">
+          <li><button class="dropbtn">About</button></li>
+          <i class="fa fa-caret-down"></i>
+          <div class="dropdown-content">
+            <a href="../about.html">About Us</a>
+            <a href="../admissions.html">Admissions</a>
+          </div>
+        </div>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+        <li><a href="../portal.html">Parent/Teacher Portal</a></li>
+      </ul>
+      <span class="login-button"><a href="../login.html"><strong>Login</strong></a></span>
+    </nav>
+
+    <div class="portal-container">
+      <div class="flex-container">
+        <div class="portal-sidebar">
+          <h3>Portal Navigation</h3>
+          <hr class="line" color="#F2D0A4" width="80%">
+          <div class="portal-menu">
+            <ul>
+              <li><a href="account.html">My Account</a></li>
+              <li><a href="policies.html">School Policies</a></li>
+              <li><a href="parent-resources.html">Parent Resources</a></li>
+              <li><a href="teacher-resources.html">Teacher Resources</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="portal-bg">
+          <div class="portal-content">
+            <div class="portal-welcome">
+              <h2>Resources for Teachers</h2>
+              <hr class="line" width="80%">
+              <img src="../images/globe-network.png" height="100px" width="100px">
+              <span>
+                <p>On this page you will find sample worksheets, activities, and learning resources to assist in creating lesson plans.</p>
+                <p>In the dynamic website this page is only viewable to those logged into a Teacher or Admin account.</p>
+                <hr>
+                <h3>Curriculum Information</h3>
+                <p><a href="../files/example.txt" download>Lower School Curriculum (Infants Years 1 - 3)</a></p>
+                <p><a href="../files/example.txt" download>Higher School Curriculum (Juniors Years 4 - 6)</a></p>
+                <hr>
+                <h3>Worksheets</h3>
+                <p><a href="../files/example.txt" download>Science Worksheets - Solar System</a></p>
+                <p><a href="../files/example.txt" download>English Worksheets - Letters and Punctuation</a></p>
+                <p><a href="../files/example.txt" download>Maths Worksheets - Shapes and Numbers</a></p>
+                <hr>
+                <h3>External Resources</h3>
+                <p><a href="http://google.com">Teaching Websites</a></p>
+                <hr>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          Maple Tree Primary School<br>
+          123 Elementary Lane<br>
+          Penylan<br>
+          Cardiff<br>
+          CF24 5NQ
+        </div>
+        <div class="footer-center">
+          <img src="/u10-A2/images/logo.png">
+        </div>
+        <div class="footer-right">
+          <a href="/u10-a2/files/example.txt" style="color:white" download>Privacy Policy</a><br>
+          <a href="/u10-a2/images/sitemap.png" style="color:white">Sitemap</a><br>
+          Tel: 02920 123 456<br>
+          Fax: 0800 112 223<br>
+          mapletreeprimary@example.com<br>
+        </div>
+      </div>
+      <div class="copy-wrapper">
+        <span>
+          <small>Copyright &copy; Maple Tree Primary 2022 All Rights Reserved</small>
+        </span>
+      </div>
+    </div>
+
+  </body>
+</html>
